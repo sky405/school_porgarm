@@ -56,7 +56,7 @@ public class Sort {
     public static void main(String[] args) {
         int[] num = {1, 4, 9, 9, 3, 5, 2};
         tmp = new int[num.length];
-        merge_sort( num, 0, num.length-1);
+        quick_sort( num, 0, num.length-1);
         System.out.println(Arrays.toString(num));
 
     }
