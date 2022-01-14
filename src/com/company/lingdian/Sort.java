@@ -59,5 +59,6 @@ public class Sort {
         quick_sort( num, 0, num.length-1);
         System.out.println(Arrays.toString(num));
         System.out.println("fix");
+        System.out.println("la");
     }
 }
