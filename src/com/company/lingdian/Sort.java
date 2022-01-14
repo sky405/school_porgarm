@@ -58,6 +58,6 @@ public class Sort {
         tmp = new int[num.length];
         quick_sort( num, 0, num.length-1);
         System.out.println(Arrays.toString(num));
-
+        System.out.println("fix");
     }
 }
